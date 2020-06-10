@@ -1,17 +1,9 @@
-// fdsgdsfgdf
-// dsfgdgfd
-// sdfsd
-// fdsgdsfgdfsdfdfsd
-// dsfgdgfd
-// sdfsd
-// fdsgdsfgdf
-// dsfgdgfd
-// fdsgdsfgdfsdfdsfd
-// dsfgdgfdsdfsdf
-// sdfsdsdfdsfsd
-// fdsgdsfgdfsdfsd
-// dsfgdgfdsdfsdfds
-// sdfsd
-// fdsgdsfgdfsdfsdf
-// dsfgdgfd
-// sdfsd
+window.onload = function () {
+    document.getElementById("firstHeadId").style.backgroundColor = "grey";
+ // document.getElementsByClassName("firstHeadClass").style.backgroundColor = "grey";
+ let firstHead = document.getElementsByClassName("firstHeadClass");
+ Array.from(firstHead).forEach(element => {
+    element.style.backgroundColor = 'grey';
+});
+};
+    
