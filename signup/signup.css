@@ -1,0 +1,13 @@
+h6 {
+    width: 206px;
+    display: block;
+}
+
+#firstHeadId {
+    font-size: 10px;
+    color: brown;
+}
+
+.firstHeadClass {
+    font-size: 50px;
+}
