@@ -1,0 +1,18 @@
+<head>
+   <link href="signup.css" type="text/css" rel="stylesheet"/> 
+   <script src="signup.js"></script>
+</head>
+
+<h2>please signup here to access project</h2>
+<label for="userName">user name</label>
+<input type="text" placeholder="userName" id="userName" onkeyup="userName()" onblur="userName()" onfocus="userName()"/>
+<input type="text" placeholder="userName" id="userNamedown" onkeydown="userNamedown()"/>
+<input type="text" placeholder="userName" id="userNamepress" onkeypress="userNamepress()"/>
+
+<br/>
+<div id="password-control" style="padding: 13px 13px 18px 0px;">
+<label for="password">password</label>
+<input type="password" placeholder="password" id="password" onkeyup="password()"/>
+</div>
+<br/>
+<button type="submit" onclick="signup()">signup</button>
