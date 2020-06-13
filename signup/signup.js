@@ -6,4 +6,9 @@ window.onload = function () {
     element.style.backgroundColor = 'grey';
 });
 };
+
+
+function newBalajiFunction() {
+    alert("new repo");
+}
     
